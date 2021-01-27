@@ -26,13 +26,11 @@ The whole module then gets available to the python interpreter.
 
 Once the module is added to the pythonpath, it is available on this system:
 
-```python
+```
 >>> from example_package import some_module
 >>> from example_package.some_sub_module import some_sub_module_1
 >>> some_module.some_module_hello()
 hello from some_module
->>> some_sub_module_1
-some_sub_module_1
 >>> some_sub_module_1.some_sub_module_2_hello()
 hello from some_sub_module_2
 ```
