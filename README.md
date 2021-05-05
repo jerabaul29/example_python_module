@@ -81,3 +81,11 @@ FAILED tests/tests_some_module/test_42.py::test_42_failing - assert 42 == 43
 ============================================= 1 failed, 1 passed in 0.11s ==============================================
 ```
 
+## Requirements
+
+The ```Requirements.txt``` should contain the list of packages needed and the lowest versions needed. This allows for automatic installation.
+
+## CI/CD
+
+CI/CD can be set up using the github ```Actions```. The setup for the actions is set in **.github/workflows**. To set up a new workflow, use the web API and edit the configuration file there. It is also possible to generate a badge that can be put on the main readme file.
+
