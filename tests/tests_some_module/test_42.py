@@ -6,7 +6,7 @@ def test_42_passing():
     assert(some_module_42() == 42)
 
 
-def test_42_failing():
-    """Example of a failing test."""
-    assert(some_module_42() == 43)
+# def test_42_failing():
+#     """Example of a failing test."""
+#     assert(some_module_42() == 43)
 
