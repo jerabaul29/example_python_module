@@ -1,5 +1,3 @@
-[![pytest](https://github.com/jerabaul29/example_python_package/actions/workflows/python-package.yml/badge.svg)](https://github.com/jerabaul29/example_python_package/actions/workflows/python-package.yml)
-
 # example_python_package
 
 Just a toy example of a python package (a package being a collection of modules, which are ```.py``` files) to illustrate how python package / module things can be set up on a machine, and a few things I often use when setting up python repos containing code.
