@@ -85,9 +85,9 @@ FAILED tests/tests_some_module/test_42.py::test_42_failing - assert 42 == 43
 
 ## Requirements
 
-The ```requirements.txt``` should contain the list of packages needed and the lowest versions needed. This allows for automatic installation. When using a ```setup.py``` script these requirements can also be listed as an ```install_requires``` list, in which case the ```requirements.txt``` can be reduced to ```.``` for defaulting to the information contained in the ```setup.py```.
+The ```requirements.txt``` should contain the list of packages needed and the lowest versions needed. This allows for automatic installation. When using a ```setup.py``` script these requirements can also be listed as an ```install_requires``` list inside the ```setup.py``` file description, in which case the ```requirements.txt``` can be reduced to ```.``` for defaulting to the information contained in the ```setup.py```.
 
 ## CI/CD
 
-CI/CD can be set up using the github ```Actions```. The setup for the actions is set in **.github/workflows**. To set up a new workflow, use the web API and edit the configuration file there. It is also possible to generate a badge that can be put on the main readme file.
+CI/CD can be set up using the github ```Actions```. The setup for the actions is set in **.github/workflows**. To set up a new workflow, use the web API and edit the configuration file there. It is also possible to generate a badge that can be put on the main readme file. For example, the present action will run the tests and report status in a badge.
 
