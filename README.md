@@ -85,7 +85,7 @@ FAILED tests/tests_some_module/test_42.py::test_42_failing - assert 42 == 43
 
 ## Requirements
 
-The ```Requirements.txt``` should contain the list of packages needed and the lowest versions needed. This allows for automatic installation.
+The ```requirements.txt``` should contain the list of packages needed and the lowest versions needed. This allows for automatic installation. When using a ```setup.py``` script these requirements can also be listed as an ```install_requires``` list, in which case the ```requirements.txt``` can be reduced to ```.``` for defaulting to the information contained in the ```setup.py```.
 
 ## CI/CD
 
